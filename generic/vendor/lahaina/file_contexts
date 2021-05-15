@@ -269,7 +269,7 @@
 # move from qssi to vendor under each specific target, Lahaina etc.
 /dev/smcinvoke                                  u:object_r:tee_device:s0
 
-/vendor/bin/hw/vendor\.qti\.hardware\.display\.demura@1\.0-service u:object_r:hal_display_demura_default_exec:s0
-
 #fancontroller-service
 /(vendor|system/vendor)/bin/fan_control u:object_r:vendor_fancontrol_exec:s0
+
+/vendor/bin/hw/vendor\.qti\.hardware\.display\.demura-service u:object_r:hal_display_demura_default_exec:s0
